@@ -2,49 +2,39 @@
 
 ## 📌 Overview
 
-Customer CRM System is a web-based application designed to manage customer information, track interactions, and streamline business workflows. It helps organizations maintain structured client records and improve communication efficiency.
+This project is a Customer Relationship Management (CRM) system developed to simplify the process of storing and managing customer information. It allows users to efficiently handle client data and maintain organized records for better workflow management.
 
 ---
 
 ## 🚀 Features
 
-* Add, update, and delete customer records
-* Store and manage customer details efficiently
-* Organized data handling using a structured system
-* User-friendly interface for easy navigation
-* Helps improve customer relationship tracking
+* Create, update, and delete customer records
+* Store customer details in a structured format
+* Simple and intuitive user interface
+* Efficient data organization
+* Easy navigation across different sections
 
 ---
 
 ## 🛠️ Tech Stack
 
-* Frontend: HTML, CSS, JavaScript
-* Backend: Node.js (if applicable)
-* Database: JSON / Local Storage (based on project structure)
+* HTML, CSS, JavaScript
+* Node.js (for backend functionality)
+* JSON-based data handling
 
 ---
 
-## ⚙️ Installation & Setup
+## ⚙️ How to Run the Project
 
-1. Clone the repository:
-
-```
-git clone https://github.com/Parth1908G/customer-crm-system.git
-```
-
-2. Navigate to the project folder:
-
-```
-cd customer-crm-system
-```
-
-3. Install dependencies (if required):
+1. Download or clone this repository
+2. Open the project folder
+3. Install dependencies:
 
 ```
 npm install
 ```
 
-4. Run the application:
+4. Start the application:
 
 ```
 npm start
@@ -52,27 +42,21 @@ npm start
 
 ---
 
-## 📷 Screenshots
+## 📚 Project Objective
 
-(Add project screenshots here to demonstrate UI and features)
-
----
-
-## 📚 Use Case
-
-This system can be used by small businesses or individuals to manage customer data, track interactions, and maintain organized records for better workflow management.
+The main objective of this project is to build a simple CRM system that can be used to manage customer information effectively and improve data handling processes.
 
 ---
 
-## ✨ Future Improvements
+## ✨ Future Scope
 
-* Add authentication system (login/signup)
-* Improve UI/UX design
-* Integrate database (MongoDB/MySQL)
-* Add analytics dashboard
+* Add user authentication system
+* Improve UI design
+* Integrate database support
+* Add advanced features like analytics
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Developed By
 
 Parth Gupta
