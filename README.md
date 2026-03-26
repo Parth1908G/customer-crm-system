@@ -1,86 +1,78 @@
-# Campus Course & Records Manager (CCRM)
+# Customer CRM System
 
-## 📖 Project Overview
-Campus Course & Records Manager (CCRM) is a **Java SE console-based application** that helps institutes manage:
-- 👩‍🎓 Students (create/update, enroll/unenroll, transcripts)
-- 📘 Courses (create/update, search, assign instructors)
-- 📝 Enrollments & Grades (record marks, compute GPA, generate transcripts)
-- 📂 File Utilities (import/export CSV, recursive backups, reports)
+## 📌 Overview
 
-It demonstrates **Java OOP, NIO.2 file I/O, Streams, Date/Time API, exceptions, enums, design patterns (Singleton, Builder)**, and more.
+Customer CRM System is a web-based application designed to manage customer information, track interactions, and streamline business workflows. It helps organizations maintain structured client records and improve communication efficiency.
 
 ---
 
-📜 Evolution of Java (Brief Timeline)
+## 🚀 Features
 
-1995: Java 1.0 released by Sun Microsystems
-2004: Java 5.0 introduced Generics, Enums
-2011: Oracle takes over Java
-2014: Java 8 with Lambdas & Streams
-2017: Java 9 modular system (Project Jigsaw)
-2023+: Java 21 (LTS)
+* Add, update, and delete customer records
+* Store and manage customer details efficiently
+* Organized data handling using a structured system
+* User-friendly interface for easy navigation
+* Helps improve customer relationship tracking
 
+---
 
-Java ME vs SE vs EE
+## 🛠️ Tech Stack
 
-Edition	:  Usage
-Java ME :  Mobile & embedded devices
-Java SE	:  Core platform for desktop & CLI apps
-Java EE	: Enterprise apps (web servers distributed systems)
+* Frontend: HTML, CSS, JavaScript
+* Backend: Node.js (if applicable)
+* Database: JSON / Local Storage (based on project structure)
 
+---
 
+## ⚙️ Installation & Setup
 
-🔷JDK, JRE, JVM
+1. Clone the repository:
 
-JDK – Developer kit (compiler, debugger, libraries)
-JRE – Runtime environment (to run Java apps)
-JVM – Virtual machine that executes bytecode
+```
+git clone https://github.com/Parth1908G/customer-crm-system.git
+```
 
-Interaction:
-Source Code (.java) → compiled by javac → Bytecode (.class) → runs on JVM inside JRE.
+2. Navigate to the project folder:
 
+```
+cd customer-crm-system
+```
 
-🖥️ Install Java on Windows
+3. Install dependencies (if required):
 
-Download JDK from Oracle/OpenJDK
-Install & set JAVA_HOME in Environment Variables
+```
+npm install
+```
 
-Verify:
-java -version
-javac -version
+4. Run the application:
 
+```
+npm start
+```
 
-Eclipse IDE Setup
+---
 
-Install Eclipse IDE
-File → New → Java Project → CCRM
-Import src/ folder
-Right-click CLIApp.java → Run As → Java Application
+## 📷 Screenshots
 
+(Add project screenshots here to demonstrate UI and features)
 
-📑Mapping (Syllabus → Code)
-Syllabus Topic	       File/Class
-Encapsulation	       Student.java (private fields + getters/setters)
-Inheritance	           Person.java → Student, Instructor
-Abstraction	           Person.java (abstract methods)
-Polymorphism	       TranscriptService.java using toString()
-Singleton	           AppConfig.java
-Builder	               Course.Builder
-Exceptions	           DuplicateEnrollmentException.java
-File I/O (NIO.2)	   ImportExportService.java
-Recursion	           RecursionUtils.java
-Enums	               Grade.java, Semester.java
+---
 
-✅ Assertions
-Enable assertions when running:
+## 📚 Use Case
 
-java -ea -cp bin edu.ccrm.cli.CLIApp
+This system can be used by small businesses or individuals to manage customer data, track interactions, and maintain organized records for better workflow management.
 
+---
 
-##  How to Run
-```bash
-# Compile
-javac -d bin src/edu/ccrm/cli/MainMenu.java src/edu/ccrm/cli/CLIApp.java src/edu/ccrm/domain/*.java src/edu/ccrm/service/*.java src/edu/ccrm/io/*.java src/edu/ccrm/util/*.java src/edu/ccrm/config/*.java
+## ✨ Future Improvements
 
-# Run
-java -cp bin edu.ccrm.cli.CLIApp
+* Add authentication system (login/signup)
+* Improve UI/UX design
+* Integrate database (MongoDB/MySQL)
+* Add analytics dashboard
+
+---
+
+## 👨‍💻 Author
+
+Parth Gupta
